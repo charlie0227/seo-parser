@@ -1,0 +1,7 @@
+There are 2 Tagname=img without Attr=alt
+There are 2 Tagname=a without Attr=rel
+This HTML have Parent=head Tagname=title
+This HTML without Parent=head Tagname=meta name=descriptions
+This HTML have Parent=head Tagname=meta name=keywords
+This HTML don't have gt than 15 Tagname=strong
+This HTML have gt than 1, don't have lt than 3 Tagname=h1
