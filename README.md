@@ -85,11 +85,13 @@ mocha
 ```
 ## Document
 __new SEO_Parser.parse(args, read_path [, write_path])__
+
 | Arguments | Description |
 | --- | --- |
 | args | an array contains optional quantity of arguments. Default is []. |
 | read_path | read html DOM path ex:demo.html|
 | write_path (optional) | write output result to file ex:result.txt , default is output as console. |
+
 ## Method
 __must__(array)
 
@@ -98,6 +100,7 @@ The query must appear in matching documents
 __must_not__(array)
 
 The query must not appear in matching documents 
+
 | Arguments | Description |
 | --- | --- |
 | Parent | check current tag contains this parent or not, ex:{ Parent: 'head' }. |
@@ -108,6 +111,7 @@ The query must not appear in matching documents
 __range__(object)
 
 Matches result with nums that have terms within a certain range.
+
 | Arguments | Description |
 | --- | --- |
 | gte | Greater-than or equal to |
@@ -115,5 +119,6 @@ Matches result with nums that have terms within a certain range.
 | lte | Less-than or equal to |
 | lt | Less-than|
 | eq | equal|
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
